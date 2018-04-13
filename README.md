@@ -23,5 +23,20 @@
 # 03. Week 4 (2018.03.23)
 ppt download: https://drive.google.com/file/d/135VeM4mvj45M_5AhsiaDBQB8TSo2O8Zq/view
 
+
 # BBCar
 > PCP 嵌入式系統國際認證
+
+###
+```
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+DO
+    HIGH `pin`
+    PAUSE msec
+    LOW `pin`
+
+
+
+```
